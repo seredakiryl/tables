@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    min-width: 1024px;
+}
+
+.MuiTableContainer-root {
+    color: white !important;
+}
+
+@layer components {
+    .form-input {
+        @apply appearance-none border border-black dark:border-white opacity-50 text-opacity-80 rounded-md w-full py-[13px] px-[16px] dark:text-white text-black  leading-tight focus:outline-none disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none dark:bg-layer;
+    }
+
+}
